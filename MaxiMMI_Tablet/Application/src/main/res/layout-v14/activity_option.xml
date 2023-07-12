@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="essetials.android.com.hmi.optionActivity"
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Komplette Datenbank"
+        android:id="@+id/textView11"
+        android:layout_column="1"
+        android:layout_row="3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:text="Zurück"
+        android:id="@+id/button_goBack"
+        android:layout_row="6"
+        android:layout_column="3"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginBottom="50dp" />
+
+    <Button
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:text="Neu starten"
+        android:id="@+id/buttonNeustart"
+        android:layout_row="6"
+        android:layout_column="11"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginBottom="50dp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Bestätigen"
+        android:id="@+id/button_id_Options_Confirm2"
+        android:layout_column="12"
+        android:onClick="OnClickConfirm2"
+        android:layout_row="13"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Operation"
+        android:id="@+id/textView9"
+        android:layout_column="1"
+        android:layout_row="4"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Löschen, Export und Neustart"
+        android:id="@+id/textView3"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Alles zur ID"
+        android:id="@+id/textView7"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText_options_id_show"
+        android:layout_column="2"
+        android:layout_row="2"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="50dp" />
+
+    <Button
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:text="Löschen"
+        android:id="@+id/buttonEmptyDB"
+        android:layout_column="3"
+        android:onClick="OnClickDatabase"
+        android:layout_row="2"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="50dp" />
+
+    <Button
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:text="Backup"
+        android:id="@+id/buttonExportDBBackup"
+        android:layout_row="4"
+        android:layout_column="2"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:text="Export"
+        android:id="@+id/buttonExportDB"
+        android:layout_column="3"
+        android:onClick="OnClickExport"
+        android:layout_row="4"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp" />
+
+    <Button
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:text="Leeren"
+        android:id="@+id/buttonEmptyDBAll"
+        android:layout_column="11"
+        android:onClick="OnClickEmpty"
+        android:layout_row="4"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Passwort:"
+        android:id="@+id/textView"
+        android:layout_row="5"
+        android:layout_column="1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText_passwort"
+        android:layout_row="5"
+        android:layout_column="2"
+        android:autoText="false"
+        android:password="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
+</GridLayout>

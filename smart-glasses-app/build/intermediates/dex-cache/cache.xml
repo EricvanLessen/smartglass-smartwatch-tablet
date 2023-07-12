@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Eric\OneDrive\Arbeit\IAW\MaxiMMI Vuzix\Application\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="C:\Users\Eric\OneDrive\Arbeit\IAW\MaxiMMI Vuzix\Application\build\intermediates\pre-dexed\debug\classes-ecd5e3f7880760bd92a88d1239f1da359ec0d63d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\OneDrive\Arbeit\IAW\MaxiMMI Vuzix\Application\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3713f30726299231eddfb206043ebb72a2519b6f">
+        <dex dex="C:\Users\Eric\OneDrive\Arbeit\IAW\MaxiMMI Vuzix\Application\build\intermediates\pre-dexed\debug\classes-cc8fe99fef24a1d9fe71f2f2ad74bc7ea1e4aaca.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\OneDrive\Arbeit\IAW\MaxiMMI Vuzix\Application\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="C:\Users\Eric\OneDrive\Arbeit\IAW\MaxiMMI Vuzix\Application\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-c237c7c9683ecfd77c58e3056f1306c8ef8400e2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="C:\Users\Eric\OneDrive\Arbeit\IAW\MaxiMMI Vuzix\Application\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-79bce36f8bd0b1606a87968d30b1e39dfaf83ad2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\OneDrive\Arbeit\IAW\MaxiMMI Vuzix\Application\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d96886efea7cc74fbb3abd0e3b51d5638fc57be0">
+        <dex dex="C:\Users\Eric\OneDrive\Arbeit\IAW\MaxiMMI Vuzix\Application\build\intermediates\pre-dexed\debug\classes-ba2e3d85e4be813b3258d651a26c1f72090e1517.jar" />
+    </item>
+
+</items>

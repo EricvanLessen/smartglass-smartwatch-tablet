@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="essetials.android.com.hmi.modification_select"
+    android:background="#ffffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_kondition"
+        android:id="@+id/text_Kondition"
+        android:layout_marginBottom="40dp"
+        android:layout_above="@+id/button_monitor"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monitor"
+        android:width="200dp"
+        android:height="100dp"
+        android:textColor="#ffffff"
+        android:id="@+id/button_monitor"
+        android:layout_marginBottom="50dp"
+        android:layout_above="@+id/button_smartwatch"
+        android:layout_alignLeft="@+id/button_smartwatch"
+        android:layout_alignStart="@+id/button_smartwatch"
+        android:onClick="goToMonitorVersuch"
+        android:background="@drawable/buttonstandard" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Smartwatch"
+        android:id="@+id/button_smartwatch"
+        android:height="100dp"
+        android:width="200dp"
+        android:textColor="#ffffff"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="goToWatchVersuch"
+        android:background="@drawable/buttonstandard"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Datenbrille"
+        android:id="@+id/button_datenbrille"
+        android:layout_marginTop="50dp"
+        android:width="200dp"
+        android:textColor="#ffffff"
+        android:height="100dp"
+        android:layout_below="@+id/button_smartwatch"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonstandard"
+        />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Versuch 2"
+        android:id="@+id/button_goToVersuch2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/arrowright"
+        android:nestedScrollingEnabled="true"
+        android:textColor="#ffffff"
+        android:onClick="goToVersuch2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Versuch 1"
+        android:id="@+id/button_goToVersuch1"
+        android:background="@drawable/arrowleft"
+        android:onClick="goToVersuch1"
+        android:textColor="#ffffff"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

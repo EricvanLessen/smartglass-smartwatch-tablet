@@ -1,0 +1,150 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="essetials.android.com.hmi.alarmActivity"
+    android:id="@+id/layout_activity_alarm"
+    android:background="#ffffffff">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:text="@string/text_alarm_x"
+        android:id="@+id/id_button_alarm"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonalarm"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:text="@string/text_alarm_a_beheben"
+        android:id="@+id/id_button_alarm_a_beheben"
+        android:textSize="30sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#ffffff"
+        android:onClick="button_alarm_AClickHandler"
+        android:background="@drawable/buttonclearing"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/id_button_alarm_b_beheben"
+        android:layout_toLeftOf="@+id/id_button_alarm_b_beheben" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:text="@string/text_alarm_b_beheben"
+        android:id="@+id/id_button_alarm_b_beheben"
+        android:textSize="30sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#ffffff"
+        android:onClick="button_alarm_BClickHandler"
+        android:layout_alignTop="@+id/id_button_alarm_c_beheben"
+        android:layout_toLeftOf="@+id/id_button_alarm_c_beheben"
+        android:layout_toStartOf="@+id/id_button_alarm_c_beheben"
+        android:background="@drawable/buttonclearing" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:text="@string/text_alarm_c_beheben"
+        android:id="@+id/id_button_alarm_c_beheben"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="button_alarm_CClickHandler"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/id_button_alarm_d_beheben"
+        android:layout_toStartOf="@+id/id_button_alarm_d_beheben"
+        android:background="@drawable/buttonclearing" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:text="@string/text_alarm_d_beheben"
+        android:id="@+id/id_button_alarm_d_beheben"
+        android:textSize="30sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#ffffff"
+        android:onClick="button_alarm_DClickHandler"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2"
+        android:background="@drawable/buttonclearing" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textAlarmFehlerBehoben"
+        android:textSize="20sp"
+        android:layout_alignBottom="@+id/id_button_alarm_a_beheben"
+        android:layout_alignLeft="@+id/id_button_alarm"
+        android:layout_alignStart="@+id/id_button_alarm"
+        android:layout_alignRight="@+id/id_button_alarm"
+        android:layout_alignEnd="@+id/id_button_alarm"
+        android:textColor="#ffffff"
+        android:width="500dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/fehler_behoben"
+        android:id="@+id/id_fehler_behoben"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:width="400dp"
+        android:height="300dp"
+        android:textSize="20sp"
+        android:layout_above="@+id/id_button_alarm_b_beheben"
+        android:layout_below="@+id/id_button_alarm" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/fehler_nicht_behoben"
+        android:id="@+id/id_fehler_nicht_behoben"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/text_alarm_beheben"
+        android:id="@+id/textView_Alarm_beheben"
+        android:layout_above="@+id/id_button_alarm_b_beheben"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:textSize="30sp" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Eric/Desktop/30.11.2016%20MaxiMMI/MaxiMMI%20Tablet_Smartwatch/Application/src/main/res/layout/activity_alarm.xml -->

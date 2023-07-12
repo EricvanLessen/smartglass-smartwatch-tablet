@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Eric\OneDrive\Arbeit\IAW\MaxiMMI Tablet\wear\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\Eric\OneDrive\Arbeit\IAW\MaxiMMI Tablet\wear\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-f7632ee4ca4861652d3c9bb312801f5bbab46874.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\OneDrive\Arbeit\IAW\MaxiMMI Tablet\wear\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="C:\Users\Eric\OneDrive\Arbeit\IAW\MaxiMMI Tablet\wear\build\intermediates\pre-dexed\debug\classes-d865d6ee0e845b55d66eecdeec3ebbdb0252529d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\OneDrive\Arbeit\IAW\MaxiMMI Tablet\wear\build\intermediates\exploded-aar\com.google.android.support\wearable\1.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0e239b45d3b94ac3d759405a9c5fd1f88e53913b">
+        <dex dex="C:\Users\Eric\OneDrive\Arbeit\IAW\MaxiMMI Tablet\wear\build\intermediates\pre-dexed\debug\classes-a94b5774f111b526419f1a84b4d56e264929d2c8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\Eric\OneDrive\Arbeit\IAW\MaxiMMI Tablet\wear\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-035a33acd547c4b7c85eee024fa46413973a946f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\OneDrive\Arbeit\IAW\MaxiMMI Tablet\wear\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\Eric\OneDrive\Arbeit\IAW\MaxiMMI Tablet\wear\build\intermediates\pre-dexed\debug\classes-ea87726a733163a297331deb61da1e7316143afb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\OneDrive\Arbeit\IAW\MaxiMMI Tablet\wear\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="C:\Users\Eric\OneDrive\Arbeit\IAW\MaxiMMI Tablet\wear\build\intermediates\pre-dexed\debug\classes-277e896e8063950633638b537e946d0e7b0a3fef.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\OneDrive\Arbeit\IAW\MaxiMMI Tablet\wear\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="C:\Users\Eric\OneDrive\Arbeit\IAW\MaxiMMI Tablet\wear\build\intermediates\pre-dexed\debug\classes-fc5ca246d8edd39c2fd87884df52077db4e2808c.jar" />
+    </item>
+
+</items>

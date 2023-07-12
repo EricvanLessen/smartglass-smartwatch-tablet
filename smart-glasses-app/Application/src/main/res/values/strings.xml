@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 The Android Open Source Project, OPEN SOURCE PROJECT;
+    DON'T DELETE THE OPEN SOURCE LICENSE
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!--  BluetoothChat -->
+    <string name="send">Senden</string>
+    <string name="not_connected">Sie sind zu keinem Gerät verbunden</string>
+    <string name="bt_not_enabled_leaving">Bluetooth wurde nicht aktiviert. Bluetooth Chat wird beendet.</string>
+    <string name="title_connecting">verbinden...</string>
+    <string name="title_connected_to">verbunden mit <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">nicht verbunden</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">Gerätesuche läuft...</string>
+    <string name="select_device">Wählen Sie ein Gerät zum Verbinden aus</string>
+    <string name="none_paired">Pairing zu keinem Gerät durchgeführt</string>
+    <string name="none_found">Kein Gerät gefunden</string>
+    <string name="title_paired_devices">Geräte mit Pairing</string>
+    <string name="title_other_devices">Andere verfügbare Geräte</string>
+    <string name="button_scan">Suche nach Geräten</string>
+
+    <!-- Options Menu -->
+    <string name="secure_connect">Geräteverbindung - Sicher</string>
+    <string name="insecure_connect">Geräteverbindung - Unsicher</string>
+    <string name="discoverable">Sichtbarkeit einschalten</string>
+
+</resources>

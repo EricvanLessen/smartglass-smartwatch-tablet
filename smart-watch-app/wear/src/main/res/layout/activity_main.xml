@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/watch_view_stub"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eric.application.MainActivity"
+    tools:deviceIds="wear">
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_box="bottom"
+        android:background="@drawable/background">
+
+        <ImageView
+            android:layout_width="154dp"
+            android:layout_height="154dp"
+            android:id="@+id/imageViewAlarm"
+            android:layout_gravity="center"
+            android:src="@drawable/alarm"
+            android:contentDescription="@string/alarm_icon_string"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:layout_width="154dp"
+            android:layout_height="154dp"
+            android:id="@+id/imageViewNewProcess"
+            android:layout_gravity="center"
+            android:src="@drawable/process_icon"
+            android:contentDescription="@string/new_process_icon_string"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/text_alarm_wear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alarm_square"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="40dp"
+            android:textSize="25sp"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+</android.support.wearable.view.BoxInsetLayout>

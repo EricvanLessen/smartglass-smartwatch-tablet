@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Application</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="alarm_square">Hier erscheint der Alarm Text</string>
+    <string name="alarm_title">Alarm</string>
+    <string name="alarm_description">Type</string>
+    <string name="alarm_pic">alarm</string>
+    <string name="alarm_icon_string">alarm_icon</string>
+    <string name="new_process_icon_string">new_process_icon</string>
+    <string name="hello_square">Kein Alarm ausgeloest</string>
+</resources>

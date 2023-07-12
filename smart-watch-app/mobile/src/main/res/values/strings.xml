@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Versuch MAXiMMI</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Optionen</string>
+    <string name="text_textView_versuch_teil_1">Versuch MAXiMMI</string>
+    <string name="text_button_start">Start</string>
+    <string name="text_textView_willkommen">Herzlich willkommen.</string>
+    <string name="title_activity_alarm">Teil 1 HMI</string>
+    <string name="text_alarm_x">Alarm</string>
+    <string name="text_alarm_a_beheben">A</string>
+    <string name="text_alarm_b_beheben">B</string>
+    <string name="text_alarm_c_beheben">C</string>
+    <string name="text_alarm_d_beheben">D</string>
+    <string name="title_activity_continue">Dankeschön</string>
+    <string name="text_button_fortfahren">Fortfahren</string>
+    <string name="text_textView_fortfahren">Bitte wenden Sie sich an die Versuchsleitung bevor Sie fortfahren.</string>
+    <string name="text_textView_versuch1_beendet">Versuch 1 ist beendet.</string>
+    <string name="text_textView_weiter_mit_versuch_2">Weiter mit Versuch 2.</string>
+    <string name="text_textView_versuch2_beendet">Versuch 2 ist beendet.</string>
+    <string name="title_activity_fehler_behoben">Fehler behoben</string>
+    <string name="text_textView_fehler_behoben">Der Fehler ist behoben.</string>
+    <string name="controlText_text">Control Text</string>
+    <string name="idEingabe_string">Bitte geben Sie Ihre ID an.</string>
+    <string name="title_activity_id_eingabe">ID</string>
+    <string name="title_activity_select_condition">Modifikation</string>
+    <string name="title_activity_select">select</string>
+    <string name="title_activity_test">test</string>
+    <string name="text_kondition">Versuchsteil 1</string>
+    <string name="fehler_nicht_behoben">Falsche Fehlerkorrektur, dieser Alarm wurde nicht ausgeloest</string>
+    <string name="fehler_behoben">Fehler behoben</string>
+    <string name="title_activity_settings">Optionen</string>
+    <string name="title_activity_modification_selection">modification_selection</string>
+    <string name="weiter">Weiter</string>
+    <string name="title_activity_modification_select">modification_select</string>
+    <string name="options_delete_text">Lösche Daten zu ID:</string>
+    <string name="text_alarm_beheben">Alarm beheben:</string>
+    <string name="text_kondition_2">Versuchsteil 2</string>
+    <string name="string_button_versuch2">Prozess 1 starten</string>
+    <string name="string_button_Prozess_läuft">Prozess 1 läuft &lt;br /&gt; &lt;br /&gt; "00:00:00"</string>
+    <string name="string_button_Prozess_starten">Prozess 1 starten</string>
+    <string name="text_textView_confirmToStart">\"\"</string>
+    <string name="string_button_confirmToStart">Bestätigen</string>
+</resources>
+
